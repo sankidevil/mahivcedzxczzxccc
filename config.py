@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ITZ_IND_CODER")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Devilxdy")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "IDK")
 # --------------------------------------------------------
@@ -144,7 +144,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://graph.org/file/927fbe11f6a3f3f1cb835.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/927fbe11f6a3f3f1cb835.jpg"
+    "PING_IMG_URL", "https://graph.org/file/f1cb6b3f9d352a495e7a9.mp4"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/181715eb83d6b2dc4c1a1.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/3e8be4617f67d7369b44a.jpg"
