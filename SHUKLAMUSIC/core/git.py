@@ -51,10 +51,10 @@ def git():
         origin.fetch()
         repo.create_head(
             config.UPSTREAM_BRANCH,
-            origin.refs[config.master],
+            origin.refs[config.UPSTREAM_BRANCH],
         )
         repo.heads[config.UPSTREAM_BRANCH].set_tracking_branch(
-            origin.refs[config.master]
+            origin.refs[config.UPSTREAM_BRANCH]
         )
         repo.heads[config.UPSTREAM_BRANCH].checkout(True)
         try:
@@ -62,7 +62,7 @@ def git():
         except BaseException:
             pass
         nrs = repo.remote("origin")
-        nrs.fetch(config.master)
+        nrs.fetch(config.UPSTREAM_BRANCH)
         try:
             nrs.pull(config.UPSTREAM_BRANCH)
         except GitCommandError:
