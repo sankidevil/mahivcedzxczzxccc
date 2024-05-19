@@ -127,14 +127,14 @@ async def greet_group(_, member: ChatMemberUpdated):
 ● ɴᴀᴍᴇ ➥  {user.mention}
 ● ᴜsᴇʀɴᴀᴍᴇ ➥  @{user.username}
 ● ᴜsᴇʀ ɪᴅ ➥  {user.id}
-Sᴜᴘᴘᴏʀᴛ➥ @THE_IND_CODERS
+Sᴜᴘᴘᴏʀᴛ➥ @Shayro_Ki_Mahefil
 
 ▰▱▱▱▱▱▱▱▱▱▱▱
 ▱▱▱▱▱▰
 """,
 reply_markup=InlineKeyboardMarkup(
 [
-[InlineKeyboardButton(f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ", url=f"https://t.me/ITZ_IND_CODER"),
+[InlineKeyboardButton(f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ", url=f"https://t.me/Classics0012"),
 ]
 ]
 ))
